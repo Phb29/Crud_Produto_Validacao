@@ -1,0 +1,23 @@
+﻿@model Produto
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class=" display-6 text-center">
+<dl>
+    <dt>@Html.DisplayNameFor(nome=>nome.Nome)</dt>
+        <dd>
+            @Model.Nome
+        </dd>
+         <dt>@Html.DisplayNameFor(nome=>nome.Preco)</dt>
+        <dd>
+            @Model.Preco
+        </dd>
+         <dt>@Html.DisplayNameFor(nome=>nome.Quant)</dt>
+        <dd>
+            @Model.Quant
+        </dd>
+
+</dl>
+</div>

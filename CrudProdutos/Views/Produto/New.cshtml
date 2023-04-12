@@ -1,0 +1,29 @@
+﻿@model  Produto
+
+<h2 class="text-center">Add Novo Produto</h2>
+
+<div class="row text-center" style="display:flex; align-items:center; flex-direction:column;">
+    <div class="col col-sm-4 text-center">
+        <form  asp-action="New" method="POST">
+            <input type="hidden" asp-for="IdProduto" />
+
+            <div class="form-group">
+                <label asp-for="Nome"></label>
+                <input type="text" asp-for="Nome" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Preco"></label>
+                <input type="text" asp-for="Preco" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Quant"></label>
+                <input type="number" asp-for="Quant" class="form-control" />
+            </div>
+
+            <input type="submit" class="btn btn-primary btn-block" value="Save" style="position:relative;left:80px; margin-top:2rem;"  />
+
+        </form>
+    </div>
+</div>

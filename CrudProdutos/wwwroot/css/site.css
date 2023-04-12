@@ -1,0 +1,50 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.th-btn {
+   
+    text-align: center;
+    
+}
+
+.btn-cell {
+    padding: 0.25rem 0;
+    text-align: center;
+    
+}
+
+.btn-block {
+    display:block;
+    width: 60%;
+}
+
+.btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    margin-left: 50px;
+}
+.quant{
+
+    
+    position:relative;
+    left:30px;
+}
+.form-control {
+    text-align: center;
+}
